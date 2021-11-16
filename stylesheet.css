@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .header {
+    background-color: #034ea1;
+    border-bottom: solid;
+    border-width: 1px;
+    padding: 10px 2px;
+    color:#dbdbdb;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: -15%;
+    /* line-height: 10pt; */
+  }
+  .card {
+    width: min-content;
+    /* height: fit-content; */
+    text-align: left;
+    font-family: Tahoma, sans-serif;
+    font-weight: normal;
+    display: inline-block;
+    padding: 10px;
+    border: solid 1px;
+    border-radius:10px;
+    margin-bottom: 5px;
+    line-height:calc(1.2);
+  }
+  .card h3{
+    order: -1;
+    margin-bottom: 0;
+  }
+  .card p{
+    order: 1;
+  }
+  .dark-mode {
+    background-color: #121212;
+    color: #EDEDED;
+  }
+  .sidenav {
+    height: 100%;
+    width: 190px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  .sidenav a.active {
+    color: #f1f1f1;
+  }
+  .sidenav a.darkMode {
+    bottom: 5%;
+    }
+  
+  .content {
+    padding: 16px;
+    margin-left: 190px;
+  }
